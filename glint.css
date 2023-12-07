@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.first_image{
+    background-image: url("dark leaf.jpg");
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    background-attachment: fixed;
+}
+
+
+.first_image h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    padding: 50px;
+}
+span.green{
+    color: rgb(21, 172, 21);
+    font-size: 2.8rem;
+}
+h2{
+    color: gray;
+    
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    
+    letter-spacing: 2.0px;
+    font-weight: 600;
+
+}
+.content{
+    margin: 120px 138px;
+}
+.content h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    width: 75%;
+    padding: 0;
+}
+.btn{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+#project{
+    margin-right: 15px;
+}
+.btn:hover{
+    background-color: white;
+    color: gray;
+    font-weight: 900;
+    font-size: 10px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.green_box{
+    min-height: 1000px;
+    background-color: green;
+    /* opacity: 0.8; */
+    padding: 140px;
+    text-align: center;
+}
+.green_box h4{
+    color: black;
+    /* z-index: 10; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.green_box h1{
+    color: white;
+    font-size: 5.2rem;
+}
+.green_box hr{
+    margin: 50px 190px;
+    color: rgba(233, 240, 232, 0.821);
+    
+}
+.green_box p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40.9px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+    margin: 0 57px;
+}
+.vertical_section{
+    /* margin: 10px; */
+    /* display: flex; */
+    justify-content: center;
+
+}
+.number{
+    font-size: 5.2rem;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    color: white;
+}
+.message{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.vertical_section hr{
+    transform: rotate(180deg);
+}
+
+.white_box{
+    margin: 130px;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.white_box h4{
+    color: rgb(46, 140, 46);
+    padding: 10px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.white_box h1{
+    color: black;
+    font-size: 2rem;
+    font-size: 3.2rem;
+}
+.white_box hr{
+    color: rgb(224, 220, 220);
+    margin: 26px 296px;
+}
+
+.information{
+    margin: 10px;
+}
+.name{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+.info{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 1.2px;
+    font-size: 32px;
+    padding: 10px;
+}
+.form{
+    padding: 200px;
+    background-image: url("dark leaf.jpg");
+    /* filter: grayscale(100%); */
+    min-height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form h4{
+    color: green;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.form h1{
+    font-size: 3.2rem;
+    line-height: 60px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
